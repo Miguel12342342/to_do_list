@@ -192,15 +192,6 @@ return  Dismissible(
           });
         print("Resultado:botão pressionado");
       }),
-      bottomNavigationBar: BottomAppBar(
-        child: Row(
-          children: [
-            IconButton(onPressed: (){
-
-            }, icon: Icon(Icons.menu))
-          ],
-        ),
-      ),
      // bottomNavigationBar:BottomNavigationBar(items: null),
     );
   }
